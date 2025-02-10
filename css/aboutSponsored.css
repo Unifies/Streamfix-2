@@ -1,0 +1,60 @@
+.aboutSponsored{
+    width: 90%;
+    margin: auto;
+    margin: auto auto 1rem;
+}
+
+.sponsoredBrands{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sponsoredBrands img{
+    width: 20%;
+    border-radius: 9px;
+}
+
+.pinkBorder{
+    border: 1px solid #CCCCCC;
+}
+
+.aboutStreamFix{
+    width: 90%;
+    margin: auto;
+    margin: 4rem 0;
+}
+
+.aboutStreamFix p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 30.47px;
+    text-align: left;
+    color: #CCCCCC;
+}
+
+@media(max-width:1100px){
+    .aboutStreamFix p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}
+
+@media(max-width:500px){
+    
+    .sponsoredBrands img{
+        width: 45%;
+        margin-bottom: 1.5rem;
+    }
+
+    .aboutStreamFix{
+        width: 100%;
+        margin: auto;
+        margin: 2rem 0;
+    }
+
+    .aboutStreamFix p{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+}

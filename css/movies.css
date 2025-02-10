@@ -1,0 +1,113 @@
+.moviesHeroSection{
+    width: 100%;
+    background-image: url(../assets/moviesHeroImage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 5% 180px;
+}
+
+.moviesHeroText{
+    width: 40%;
+}
+
+.moviesHeroText h1{
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70.31px;
+    text-align: left;
+    color: #090909;
+}
+
+.moviesHeroText p{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    color: #090909;
+    margin: 15px 0 5px;
+}
+
+.moviesHeroSection .movie-info{
+    width: 50%;
+}
+
+.moviesHeroSection .time span{
+    color: #090909 !important;
+}
+
+/*Popular Movies Sections*/
+
+.popularMovies{
+    padding: 1rem 0;
+    width: 90%;
+    margin: auto auto 1rem;
+}
+
+.popularMovies h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    color: #FF00B8;
+    margin-bottom: 2rem;
+}
+
+.pop{
+    margin-top: 1rem;
+}
+
+@media(max-width:1100px){
+
+    .moviesHeroSection{
+        padding: 50px 5% 100px;
+    }
+
+    .moviesHeroText h1{
+        font-size: 40px;
+        line-height: 50.31px;
+    }
+    
+    .moviesHeroText p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .moviesHeroSection .movie-info{
+        width: 60%;
+    }
+}
+
+@media(max-width:900px){
+    .moviesHeroSection{
+        padding: 50px 5% 70px;
+    }
+
+    .moviesHeroText{
+        width: 60%;
+    }
+
+    .moviesHeroSection .movie-info{
+        width: 70%;
+    }
+
+    .popularMovies h1{
+        font-size: 23px;
+    }
+}
+
+@media(max-width:600px){
+    .moviesHeroSection{
+        padding: 50px 5% 40px;
+    }
+
+    .moviesHeroText{
+        width: 100%;
+    }
+
+    .moviesHeroSection .movie-info{
+        width: 80%;
+    }
+}
+

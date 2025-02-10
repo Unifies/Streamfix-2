@@ -1,0 +1,392 @@
+:root{
+    --clr-100dark: #090909;
+    --clr-90dark: #121010;
+    --clr-80dark: #2E2D2D;
+    --clr-grey: #454545;
+    --clr-ash: #CCCCCC;
+    --clr-80light: #CFCFCF;
+    --clr-90light: #F8F7F7;
+    --clr-magenta: #ff00b3;
+    --clr-armygreen: #00222C;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.356)), url(../assets/images/BG\ image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background: var(--clr-100dark);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    padding: 1rem 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 133.34px;
+    height: 56.44px;
+}
+
+.button button{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1.4px solid var(--clr-magenta);
+    border-radius: 50px;
+    font-size: 18.57px;
+    font-weight: 500;
+    line-height: 21.76px;
+    text-align: center;
+    color: var(--clr-ash);
+    cursor: pointer;
+}
+
+button:hover{
+    color: var(--clr-magenta);
+}
+
+main{
+    gap: 2rem;
+    padding: 20rem 5% 0;
+}
+
+main, .signIn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signIn{
+    color: var(--clr-90light);
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 58.09px;
+
+}
+
+form{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: var(--clr-grey);
+    padding: 2rem;
+    text-align: left;
+    color: var(--clr-90light);
+    font-family: "Imprima";
+    font-weight: 400;
+    font-style: normal;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 0.5rem;
+}
+
+label{
+    font-family: "Imprima";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+input{
+    padding: 1rem 2.5rem 1rem 1.5rem;
+    border-radius: 30px;
+    border: none;
+    font-family: "Imprima";
+    font-weight: 400;
+}
+
+.input-group img{
+    width: 20px;
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+
+form a{
+    color: var(--clr-90light);
+    display: inline-block;
+    font-family: 'Imprima';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+form a:hover{
+    color: var(--clr-magenta);
+}
+
+form .button{
+    margin: auto;
+}
+
+.signUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signUp a{
+    text-decoration: none;
+    color: var(--clr-magenta);
+    font-family: 'Imprima';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.signUp a:hover{
+    color: var(--clr-90light);
+    text-decoration: underline;
+    transition: ease-in-out 0.3s;
+}
+
+footer{
+    width: 100%;
+    bottom: 0;
+    margin-top: 30rem;
+}
+
+.footer-one{
+    background: var(--clr-armygreen);
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
+.footer-one h2{
+    text-align: center;
+    font-size: 30px;
+    color: var(--clr-90light);
+}
+
+.footer-one h2 a{
+    color: var(--clr-magenta);
+    text-decoration: none;
+}
+
+.footer-one h2 a:hover{
+    text-decoration: underline;
+}
+
+.footer-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+    align-items: center;
+}
+
+.android a{
+    display: flex;
+    background: var(--clr-90light);
+    padding: 8px 13px;
+    border-radius: 40px;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--clr-100dark);
+}
+
+.android a:hover{
+    background: transparent;
+    border: 2px solid var(--clr-90light);
+    color: var(--clr-90light);
+}
+
+.footer-buttons p{
+    display: flex;
+    font-size: 13px;
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer-buttons img, .footer-region .socials img{
+    width: 20px;
+}
+
+.footer-region{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.region{
+    display: flex;
+    align-items: end;
+}
+
+.region img{
+    width: 23px;
+}
+
+select{
+    background: var(--clr-armygreen);
+    border: none;
+    color: var(--clr-90light);
+    padding: 0.3rem;
+}
+
+.socials{
+    display: flex;
+    gap: 1rem;
+}
+
+.socials img:hover{
+    border: 1px solid var(--clr-90light);
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.footer-two{
+    background: var(--clr-100dark);
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-contact{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-contact img{
+    width: 215px;
+    height: 73.44px;
+}
+
+.contact-a{
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+}
+
+.footer-contact a{
+    color: var(--clr-90light);
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-contact a:hover{
+    text-decoration: underline;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.footer-text img{
+    width: 20px;
+}
+
+.footer-two p{
+    color: var(--clr-90light);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media (max-width:800px){
+
+    .signIn p{
+        line-height: 30px;
+        padding-top: 8px;
+    }
+
+    form{
+        width: 80%;
+        gap: 2rem;
+    }
+    
+    label{
+        font-size: 14px;
+    }
+
+    form a{
+        font-size: 12px;
+    }
+
+    .signUp p, .signUp a{
+    font-size: 13px;
+    }
+
+    .footer-one h2{
+        font-size: 24px;
+    }
+
+    .footer-buttons{
+        flex-direction: column;
+    }
+
+    .footer-buttons p{
+        font-size: 11px;
+    }
+    
+    .footer-buttons img, .footer-region .socials img{
+        width: 13px;
+    }
+    
+    .region img{
+        width: 20px;
+    }
+    
+    .socials{
+        gap: 0.5rem;
+    }
+
+    .footer-contact{
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    
+    .footer-contact img{
+        width: 120px;
+        height: 63.44px;
+    }
+    
+    .contact-a{
+        line-height: 20px;
+    }
+    
+    .footer-contact a{
+        font-size: 11px;
+    }
+    
+    .footer-text img{
+        width: 13px;
+    }
+    
+    .footer-two p{
+        font-size: 11px;
+    }
+}

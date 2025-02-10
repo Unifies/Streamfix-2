@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamFix</title>
+    <link rel="icon" type="image/x-icon" href="./assets/images/3d cinema reel.png">
+
+    <!--Importing Roboto Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!--Importing Imprima Font Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    
+    <!--Linking CSS files-->
+    <link rel="stylesheet" href="./css/nav.css">
+    <link rel="stylesheet" href="./css/heroSection.css">
+    <link rel="stylesheet" href="./css/upcomingMovies.css">
+    <link rel="stylesheet" href="./css/newlySuggested.css">
+    <link rel="stylesheet" href="./css/aboutSponsored.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    
+</head>
+<body>
+    <header>
+
+        <nav>
+
+            <div class="mobile">
+                <div class="logo">
+                    <a href="index.html"><img src="./assets/Streamfit Logo.png" alt=""></a>
+                </div>
+                
+                <div class="bars">
+                    <img src="./assets/icons/menu icon.png" alt="" onclick="myFunction()">
+                </div>
+            </div>
+            
+            <div class="desktop" id="responsiveMenu">
+                <ul>
+                    <a href="./index.html" class="active"><li>Home</li></a>
+                    <a href="./signInPage/movies.html"><li>Movies</li></a>
+                    <a href="./signInPage/tvShows.html"><li>TV Shows</li></a>
+                    <a href="./signInPage/real-mainpage.html"><li>Web Series</li></a>
+                    <a href="./signInPage/real-mainpage.html"><li>Premium</li></a>
+                </ul>
+
+                <div class="button">
+                    <a href="./signInPage/signIn.html"><button type="submit">Sign In</button></a>
+                </div>
+            </div>
+            
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="heroSection">
+            <div class="heroText">
+                <h1>STREAMFIX</h1>
+                <h3>Unlimited Entertainment: <span>Movies, TV Shows & More</span></h3>
+                <a href="./signInPage/signIn.html"><button><img src="./assets/play icon.png" alt="">PLAY NOW</button></a>
+            </div>
+
+            <div class="heroImages">
+                <img src="./assets/heroImage.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="upcoming">
+            <div class="movies">
+                <h2>UPCOMING MOVIES</h2>
+                <div class="upcoming-buttons">
+                    <a href="./signUpPage/signUp.html"><button class="activeButton">Movies</button></a>
+                    <a href="./signUpPage/signUp.html"><button>TVShows</button></a>
+                    <a href="./signUpPage/signUp.html"><button>Animation</button></a>
+                </div>
+            </div>
+            <div class="upcoming-cards">
+                <div class="card">
+                    <img class="card-image" src="./assets/The American.jpg" alt="The Amerian movie">
+                    <div class="card-info">
+                        <div class="movie-info">
+                            <p>The American</p>
+                            <span>2024</span>
+                        </div>
+                        <div class="movie-info">
+                            <img src="./assets/HD tag.png" alt="HD resolution">
+                            <div class="time-ratings">
+                                <div class="time">
+                                    <img src="./assets/clock-icon.png" alt="movie length">
+                                    <span>130 min</span>
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/Star.png" alt="movie length">
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="card-image" src="./assets/images/image7.png" alt="Liger indian movie">
+                    <div class="card-info">
+                        <div class="movie-info">
+                            <p>Liger</p>
+                            <span>2024</span>
+                        </div>
+                        <div class="movie-info">
+                            <img src="./assets/HD tag.png" alt="HD resolution">
+                            <div class="time-ratings">
+                                <div class="time">
+                                    <img src="./assets/clock-icon.png" alt="movie length">
+                                    <span>120 min</span>
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/Star.png" alt="movie length">
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="card-image" src="./assets/Beekeeper.png" alt="The Beekeeper movie">
+                    <div class="card-info">
+                        <div class="movie-info">
+                            <p>The Beekeeper</p>
+                            <span>2024</span>
+                        </div>
+                        <div class="movie-info">
+                            <img src="./assets/HD tag.png" alt="HD resolution">
+                            <div class="time-ratings">
+                                <div class="time">
+                                    <img src="./assets/clock-icon.png" alt="movie length">
+                                    <span>125 min</span>
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/Star.png" alt="movie length">
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="card-image" src="./assets/Kung Fu Panda.jpg" alt="Kung Fu Panda movie">
+                    <div class="card-info">
+                        <div class="movie-info">
+                            <p>Kung Fu Panda</p>
+                            <span>2024</span>
+                        </div>
+                        <div class="movie-info">
+                            <img src="./assets/HD tag.png" alt="HD resolution">
+                            <div class="time-ratings">
+                                <div class="time">
+                                    <img src="./assets/clock-icon.png" alt="movie length">
+                                    <span>135 min</span>
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/Star.png" alt="movie length">
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="card-image" src="./assets/images/image6.png" alt="M.S. Donnie The untold story movie">
+                    <div class="card-info">
+                        <div class="movie-info">
+                            <p>M.S. Dhoni</p>
+                            <span>2024</span>
+                        </div>
+                        <div class="movie-info">
+                            <img src="./assets/HD tag.png" alt="HD resolution">
+                            <div class="time-ratings">
+                                <div class="time">
+                                    <img src="./assets/clock-icon.png" alt="movie length">
+                                    <span>135 min</span>
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/Star.png" alt="movie length">
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img class="card-image" src="./assets/Role Play.jpg" alt="Role Play movie">
+                    <div class="card-info">
+                        <div class="movie-info">
+                            <p>Role Play</p>
+                            <span>2024</span>
+                        </div>
+                        <div class="movie-info">
+                            <img src="./assets/HD tag.png" alt="HD resolution">
+                            <div class="time-ratings">
+                                <div class="time">
+                                    <img src="./assets/clock-icon.png" alt="movie length">
+                                    <span>135 min</span>
+                                </div>
+                                <div class="time">
+                                    <img src="./assets/Star.png" alt="movie length">
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newlySuggested">
+            <h1>NEWLY SUGGESTED</h1>
+
+            <div class="newlySuggestedMovies">
+                <img src="./assets/Punisher.jpg" alt="">
+                <img src="./assets/The last airbender.jpg" alt="">
+                <img src="./assets/Avatar.jpg" alt="">
+                <img src="./assets/Beauty & Beast.jpg" alt="">
+                <img src="./assets/Frozen 2.jpg" alt="">
+                <img src="./assets/Justice League.jpg" alt="">
+                <img src="./assets/Jungle book.jpg" alt="">
+                <img src="./assets/Aladdin.jpg" alt="">
+                <img src="./assets/Hunger.jpg" alt="">
+                <img src="./assets/Wedding Planner.jpg" alt="">
+                <img src="./assets/Wazir.jpg" alt="">
+                <img src="./assets/Party down.jpg" alt="">
+                <img src="./assets/Spiderman 3.jpg" alt="">
+                <img src="./assets/NASA Innovation.jpg" alt="">
+                <img src="./assets/Hawaizaada.jpg" alt="">
+                <img src="./assets/Prince of Persia.jpg" alt="">
+            </div>
+
+            <div class="newlySuggestedPages">
+                <p class="newlyActive">1</p>
+                <p>2</p>
+                <p>3</p>
+                <p>4</p>
+                <p>5</p>
+                <p>...</p>
+                <p>10</p>
+            </div>
+        </section>
+
+        <section class="aboutSponsored">
+
+            <div class="sponsoredBrands">
+                <img src="./assets/Walt Disney.jpg" alt="">
+                <img src="./assets/Marvel.jpg" alt="">
+                <img src="./assets/Rectangle 54.jpg" alt="" class="pinkBorder">
+                <img src="./assets/Star Wars.jpg" alt="" class="pinkBorder">
+            </div>
+
+            <div class="aboutStreamFix">
+                <p>Streamfix is an online movie streaming platform that offers pirated content that is not yet released. It 
+                    has a huge collection of latest movies and films that still not available on the market and YouTube. 
+                    <br>You can watch and download all contents free of costs, but please note that they are illegal, so you 
+                    have to take some precautions.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="streamfixSocials">
+            <h1>See all you can accomplish with <span><a href="./signUpPage/signUp.html">Streamfix</a></span></h1>
+
+            <div class="streamfixSocialsButtons">
+                <a href="https://play.google.com/"><button><img src="./assets/icons/googlePlay.png" alt="">GET STREAMFIX ON ANDROID</button></a>
+                <a href="https://www.apple.com/app-store/"><button class="appleIconButton"><img src="./assets/icons/apple.png" alt="" class="appleIcon">GET STREAMFIX ON APPLE ISO</button></a>
+                <a href="https://chat.whatsapp.com/GTbPtVdimRBGxeXmYtSl78"><button class="noIconButton">CONTACT US</button></a>
+            </div>
+
+            <div class="regionSocials">
+                <div class="region">
+                    <img src="./assets/icons/world icon.png" alt="">
+                    <select name="" id="region">
+                        <option value="1">Change Region</option>
+                        <option value="2">Africa</option>
+                        <option value="3">Asia</option>
+                        <option value="4">Europe</option>
+                        <option value="5">North America</option>
+                        <option value="6">South America</option>
+                        <option value="7">Antarctica</option>
+                        <option value="8">Australia</option>
+                    </select>
+                </div>
+
+                <div class="socialIcons">
+                    <img src="./assets/icons/LinkedIn.png" alt="">
+                    <img src="./assets/icons/Instagram.png" alt="">
+                    <img src="./assets/icons/Facebook.png" alt="">
+                    <img src="./assets/icons/X.png" alt="">
+                    <img src="./assets/icons/YouTube.png" alt="">
+                    <img src="./assets/icons/TikTok.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="logoLinks">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/Streamfit Logo.png" alt=""></a>
+          </div>
+
+            <div class="links">
+                <a href="./index.html"><p>Contact us</p></a>
+                <a href="./index.html"><p>Help center</p></a>
+                <a href="./index.html"><p>Account</p></a>
+                <a href="./index.html"><p>Media center</p></a>
+                <a href="./index.html"><p>FAQ</p></a>
+                <a href="./index.html"><p>Jobs</p></a>
+                <a href="./index.html"><p>Ways to watch</p></a>
+                <a href="./index.html"><p>Terms of use</p></a>
+                <a href="./index.html"><p>Investor relations</p></a>
+                <a href="./index.html"><p>Cookie preferences</p></a>
+                <a href="./index.html"><p>Corporate information</p></a>
+                <a href="./index.html"><p>Privacy</p></a>
+                <a href="./index.html"><p>Legal notice</p></a>
+                <a href="./index.html"><p>Speed test</p></a>
+                <a href="./index.html"><p>Marketing</p></a>
+                <a href="./index.html"><p>Customers stories</p></a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <img src="./assets/icons/copyright.png" alt="">
+            <p>Group 1 Upskill, 2024</p>
+        </div>
+        
+    </footer>
+
+    <!--Linking JS files-->
+    <script src="./JavaScript/nav.js"></script>
+</body>
+</html>

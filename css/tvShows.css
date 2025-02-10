@@ -1,0 +1,229 @@
+body{
+    width: 100%;
+    margin: 0;
+}
+
+.topTrending{
+    margin: 10rem auto 4rem;
+    width: 90%;
+}
+
+.nigerianShows{
+    margin: 2rem auto 0 !important;
+}
+
+.topTrending h1{
+    font-size: 24.6px;
+    font-weight: 500;
+    line-height: 30.07px;
+    text-align: left;
+    color: #FF00B8;
+    margin-bottom: 2rem;
+}
+
+.topTrendingShows{
+    width: 95% !important;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5%;
+}
+
+.trending{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.trending img{
+    width: 100%;
+    height: 80%;
+}
+
+.trendingMovie{
+    border-radius: 9px;
+}
+
+.trending button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1.4px solid #FF00B8;
+    border-radius: 50px;
+    color: #cccccc;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.76px;
+    text-align: center;
+    margin: 15px auto 25px;
+}
+
+.trending button img{
+    margin: auto 10px auto 0;
+    width: 12px;
+}
+
+.trendingForeign{
+    width: 90%;
+    margin: auto;
+    padding: 0 0 2rem;
+}
+
+.foreignShows{
+    width: 100%;
+    display: flex;
+    gap: 1%;
+    margin: 0 auto;
+}
+
+.foreignShow{
+    width: 29%;
+}
+
+.foreignShow img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.playVideo{
+    width: 70%;
+    height: auto;
+    background-color: #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playVideo img{
+    width: 40px;
+    height: 34px;
+}
+
+.trendingForeignText{
+    width: 100%;
+}
+
+.trendingForeignText p{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36.33px;
+    text-align: left;
+    color: #FFFFFFE5;
+}
+
+.seeMore{
+    margin-top: -1rem;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36.33px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 1rem 5% 5rem;
+}
+
+@media(max-width:1210px){
+    .trending button{
+        padding: 10px 15px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        margin: 15px auto 25px;
+    }
+    
+    .trending button img{
+        margin: auto 8px auto 0;
+        width: 10px;
+    }
+}
+
+@media(max-width:1000px){
+    .trending{
+        width: 20%;
+    }
+
+    .trending button{
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 21.76px;
+    }
+    
+    .trending button img{
+        margin: auto 10px auto 0;
+        width: 12px;
+    }
+
+    .topTrending{
+        margin: 8rem 5% 0;
+    }
+
+    .trendingForeignText p{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .seeMore{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:600px){
+    .trending{
+        width: 40%;
+    }
+
+    .topTrending{
+        margin: 6rem 5% 0;
+    }
+
+    .topTrendingShows{
+        width: 90% !important;
+    }
+
+    .trendingForeignText p{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .foreignShows{
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .foreignShow{
+        width: 90%;
+    }
+
+    .foreignShow img{
+        width:  100%;
+    }
+
+    .playVideo{
+        width: 90%;
+        margin-top: -2px;
+    }
+    
+    .playVideo img{
+        margin: 100px 0;
+    }
+
+    .trendingForeignText{
+        width: 90%;
+        margin: auto;
+    }
+
+    .trendingForeignText p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    .seeMore{
+        font-size: 16px;
+        font-weight: 600;
+        padding: 1rem 10% 5rem;
+    }
+
+    
+}

@@ -1,0 +1,37 @@
+.sidebarMenus{
+    display: flex;
+    width: 250px;
+    height: 100vh;
+    flex-direction: column;
+    padding: 60px 20px 15px;
+    background-color: #090909;
+    position: fixed;
+    z-index: 0;
+    margin: -50px 0 0;
+    transition: ease 0.3s;
+}
+
+.TVsidebar{
+    margin-top: -80px !important;
+    padding: 40px 20px 15px;;
+}
+
+.sidebarMenus a{
+    margin: 0 !important;
+    font-size: 18px;
+    padding: 30px 0;
+    border-bottom: 1px solid #cccccc;
+    color: #cccccc;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.noBorder{
+    border-bottom: none !important;
+}
+
+.sidebarMenus i{
+    text-align: left;
+    margin-right: 10px;
+    width: 30px;
+}

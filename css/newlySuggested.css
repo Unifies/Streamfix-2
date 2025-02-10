@@ -1,0 +1,114 @@
+.newlySuggested{
+    padding: 3rem 0 2rem;
+    width: 90%;
+    margin: auto auto 3rem;
+}
+
+.popularMovies{
+    margin-bottom: 1rem !important;
+}
+
+
+.newlySuggested h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.5px;
+    text-align: left;
+    color: #FF00B8;
+    margin-bottom: 3rem;
+}
+
+.newlySuggestedMovies{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5%;
+    overflow: scroll;
+}
+
+.newlySuggestedMovies img{
+    width: 11%;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
+.newlySuggestedPages{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.newlySuggestedPages p{
+    width: 60px;
+    height: 60px;
+    padding: 8.97px;
+    border-radius: 8px;
+    font-family: 'Imprima';
+    font-size: 39.48px;
+    font-weight: 400;
+    line-height: 45.72px;
+    text-align: center;
+    background-color: #454545;
+    color: #090909;
+}
+
+.card, .card-info{
+    margin-right: 10px;
+    margin-bottom: 20px;
+
+}
+
+.newlyActive{
+    background-color: #F8F7F7 !important;
+    color: #FF00B8 !important;
+}
+
+@media(max-width:900px){
+    .newlySuggested{
+        margin-bottom: 2rem;
+    }
+
+    .newlySuggested h1{
+        font-size: 25px;
+        margin-bottom: 2rem;
+    }
+
+    .newlySuggestedMovies img{
+        width: 22%;
+        margin-bottom: 2rem;
+    }
+
+    .newlySuggestedPages{
+        gap: 15px;
+    }
+
+
+    .newlySuggestedPages p{
+        width: 40px;
+        height: 40px;
+        padding: 5.98px;
+        font-size: 26.32px;
+        line-height: 30.48px;
+    }
+
+}
+
+@media(max-width:500px){
+    .newlySuggested{
+        margin-bottom: 1rem;
+    }
+
+    .newlySuggestedPages{
+        gap: 10px;
+    }
+
+    .newlySuggestedPages p{
+        width: 30px;
+        height: 30px;
+        padding: 4.49px;
+        font-size: 19.74px;
+        line-height: 22.86px;
+    }
+}
