@@ -1,158 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="shortcut icon" href="../assets/images/3d cinema reel.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../assets/images/3d cinema reel.png"
+      type="image/x-icon"
+    />
 
     <!--Importing Roboto Font Family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!--Importing Imprima Font Family-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Imprima&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imprima&display=swap"
+      rel="stylesheet"
+    />
 
     <!--Linking CSS Files-->
-    <link rel="stylesheet" href="../css/signIn.css">
-    <link rel="stylesheet" href="../css/footer.css">
-
-    
-</head>
-<body>
+    <link rel="stylesheet" href="../css/signIn.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="../index.html">
-                <img src="../assets/Streamfit Logo.png" alt="Streamfix Logo">
-            </a>
-            <div class="button">
-                <a href="../signInPage/signIn.html"><button type="submit">Sign In</button></a>
-            </div>
-        </nav>
+      <nav>
+        <a href="../index.html">
+          <img src="../assets/Streamfit Logo.png" alt="Streamfix Logo" />
+        </a>
+
+        <div class="button">
+          <a href="../signInPage/signIn.html"
+            ><button type="submit">Sign In</button></a
+          >
+        </div>
+      </nav>
     </header>
 
-        <main>
-            <div class="signIn">
-                <h1>Sign Up</h1>
-                <p>Create a free account</p>
-            </div>
-                <form method="get" action="../signInPage/signIn.html">
-                    <div class="input-group">
-                        <label for="uName">Username</label>
-                        <input type="text" name="uName" id="uName" placeholder="Enter Username" required>
-                        <img src="../assets/icons/name.png" alt="">
-                    </div>
-                    <div class="input-group">
-                        <label for="email">Email Address</label>
-                        <input type="email" name="email" id="email" placeholder="Enter Email Address" required>
-                        <img src="../assets/icons/email icon.png" alt="">
-                    </div>
-                    <div class="input-group">
-                        <label for="pass">Password</label>
-                        <input type="password" name="pass" id="pass" placeholder="Enter Password" required>
-                        <img src="../assets/icons/password.png" alt="">
-                    </div>
-                    <div class="input-group">
-                        <label for="pass">Confirm Password</label>
-                        <input type="password" name="pass" id="pass" placeholder="Enter Password" required>
-                        <img src="../assets/icons/password.png" alt="">
-                    </div>
-                    <div class="button">
-                        <a href="../signInPage/signIn.html"><button type="submit">Sign Up</button></a>
-                    </div>
-                    <div class="signUp">
-                        <p>Already have an account?</p>
-                        <a href="../signInPage/signIn.html">Sign In</a>
-                    </div>
-                </form>
-        </main>
+    <main>
+      <div class="signIn">
+        <h1>Sign Up</h1>
+        <p>Create a free account</p>
+      </div>
+      <form method="get" action="../signInPage/signIn.html">
+        <div class="input-group">
+          <label for="uName">Username</label>
+          <input
+            type="text"
+            name="uName"
+            id="uName"
+            placeholder="Enter Username"
+            required
+          />
+          <img src="../assets/icons/name.png" alt="" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email Address"
+            required
+          />
+          <img src="../assets/icons/email icon.png" alt="" />
+        </div>
+        <div class="input-group">
+          <label for="pass">Password</label>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Enter Password"
+            required
+          />
+          <img src="../assets/icons/password.png" alt="" />
+        </div>
+        <div class="input-group">
+          <label for="pass">Confirm Password</label>
+          <input
+            type="password"
+            name="pass"
+            id="pass"
+            placeholder="Enter Password"
+            required
+          />
+          <img src="../assets/icons/password.png" alt="" />
+        </div>
+        <div class="button">
+          <a href="../signInPage/signIn.html"
+            ><button type="submit">Sign Up</button></a
+          >
+        </div>
+        <div class="signUp">
+          <p>Already have an account?</p>
+          <a href="../signInPage/signIn.html">Sign In</a>
+        </div>
+      </form>
+    </main>
 
-        <footer>
-            <section class="footer-one">
-                <h2>See all you can accomplish with <a href="../index.html">Streamfix</a></h2>
-                <div class="footer-buttons">
-                    <div class="android">
-                        <a href="https://play.google.com/">
-                            <img src="../assets/icons/googlePlay.png" alt="">
-                            <p>GET STREAMFIX ON ANDROID</p>
-                        </a>
-                    </div>
-                    <div class="android">
-                        <a href="https://www.apple.com/app-store/">
-                            <img src="../assets/icons/apple.png" alt="">
-                            <p> GET STREAMFIX ON APPLE IOS</p>
-                        </a>
-                    </div>
-                    <div class="android">
-                        <a href="https://chat.whatsapp.com/GTbPtVdimRBGxeXmYtSl78">
-                            <p>CONTACT US</p>
-                        </a>
-                    </div>
-                </div>
-                <div class="footer-region">
-                    <div class="region">
-                        <img src="../assets/icons/world icon.png" alt="">
-                        <select name="" id="region">
-                            <option value="1">Change Region</option>
-                            <option value="2">Africa</option>
-                            <option value="3">Asia</option>
-                            <option value="4">Europe</option>
-                            <option value="5">North America</option>
-                            <option value="6">South America</option>
-                            <option value="7">Antarctica</option>
-                            <option value="8">Australia</option>
-                        </select>
-                    </div>
-                    <div class="socials">
-                        <img src="../assets/icons/LinkedIn.png" alt="">
-                        <img src="../assets/icons/Instagram.png" alt="">
-                        <img src="../assets/icons/Facebook.png" alt="">
-                        <img src="../assets/icons/X.png" alt="">
-                        <img src="../assets/icons/YouTube.png" alt="">
-                        <img src="../assets/icons/TikTok.png" alt="">
-                    </div>
-                </div>
-            </section>
+    <footer>
+      <div class="streamfixSocials">
+        <h1>
+          See all you can accomplish with
+          <span><a href="../signUpPage/signUp.html">Streamfix</a></span>
+        </h1>
 
-            <section class="footer-two">
-                <div class="footer-contact">
-                    <a href="../index.html">
-                        <img src="../assets/Streamfit Logo.png" alt="Streamfix Logo">
-                    </a>
-                    <div class="contact-a">
-                        <a href="">Contact Us</a>
-                        <a href="">FAQ</a>
-                        <a href="">Investor relations</a>
-                        <a href="">Legal notice</a>
-                    </div>
-                    <div class="contact-a">
-                        <a href="">Help Center</a>
-                        <a href="">Jobs</a>
-                        <a href="">Cookie Preference</a>
-                        <a href="">Speed Test</a>
-                    </div>
-                    <div class="contact-a">
-                        <a href="">Account</a>
-                        <a href="">Ways to watch</a>
-                        <a href="">Corporate Information</a>
-                        <a href="">Marketing</a>
-                    </div>
-                    <div class="contact-a">
-                        <a href="">Media Center</a>
-                        <a href="">Terms of Use</a>
-                        <a href="">Privacy</a>
-                        <a href="">Customers stories</a>
-                    </div>
-                </div>
-                <div class="footer-text">
-                    <img src="../assets/icons/copyright.png" alt="">
-                    <p>Group 1 Upskill, 2024</p>
-                </div>
-            </section>
-            
-        </footer>
-</body>
+        <div class="streamfixSocialsButtons">
+          <a href="https://play.google.com/"
+            ><button>
+              <img src="../assets/icons/googlePlay.png" alt="" />GET STREAMFIX
+              ON ANDROID
+            </button></a
+          >
+          <a href="https://www.apple.com/app-store/"
+            ><button class="appleIconButton">
+              <img
+                src="../assets/icons/apple.png"
+                alt=""
+                class="appleIcon"
+              />GET STREAMFIX ON APPLE ISO
+            </button></a
+          >
+          <a href="https://chat.whatsapp.com/GTbPtVdimRBGxeXmYtSl78"
+            ><button class="noIconButton">CONTACT US</button></a
+          >
+        </div>
+
+        <div class="regionSocials">
+          <div class="regions">
+            <img src="../assets/icons/world icon.png" alt="" />
+            <select name="" id="region" class="select">
+              <option value="1">Change Region</option>
+              <option value="2">Africa</option>
+              <option value="3">Asia</option>
+              <option value="4">Europe</option>
+              <option value="5">North America</option>
+              <option value="6">South America</option>
+              <option value="7">Antarctica</option>
+              <option value="8">Australia</option>
+            </select>
+          </div>
+
+          <div class="socialIcons">
+            <img src="../assets/icons/LinkedIn.png" alt="" />
+            <img src="../assets/icons/Instagram.png" alt="" />
+            <img src="../assets/icons/Facebook.png" alt="" />
+            <img src="../assets/icons/X.png" alt="" />
+            <img src="../assets/icons/YouTube.png" alt="" />
+            <img src="../assets/icons/TikTok.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="logoLinks">
+        <div class="logo">
+          <a href="../index.html"
+            ><img src="../assets/Streamfit Logo.png" alt=""
+          /></a>
+        </div>
+
+        <div class="links">
+          <a href="../index.html"><p>Contact us</p></a>
+          <a href="../index.html"><p>Help center</p></a>
+          <a href="../index.html"><p>Account</p></a>
+          <a href="../index.html"><p>Media center</p></a>
+          <a href="../index.html"><p>FAQ</p></a>
+          <a href="../index.html"><p>Jobs</p></a>
+          <a href="../index.html"><p>Ways to watch</p></a>
+          <a href="../index.html"><p>Terms of use</p></a>
+          <a href="../index.html"><p>Investor relations</p></a>
+          <a href="../index.html"><p>Cookie preferences</p></a>
+          <a href="../index.html"><p>Corporate information</p></a>
+          <a href="../index.html"><p>Privacy</p></a>
+          <a href="../index.html"><p>Legal notice</p></a>
+          <a href="../index.html"><p>Speed test</p></a>
+          <a href="../index.html"><p>Marketing</p></a>
+          <a href="../index.html"><p>Customers stories</p></a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <img src="../assets/icons/copyright.png" alt="" />
+        <p>Group 1 Upskill, 2024</p>
+      </div>
+    </footer>
+  </body>
 </html>
