@@ -78,10 +78,14 @@
 .upcoming-cards {
   display: flex;
   gap: 3rem;
-  overflow-x: auto;
+  overflow: hidden;
   padding-bottom: 3rem;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
+}
+
+.upcoming-cards {
+  overflow-x: auto;
 }
 
 .card,
