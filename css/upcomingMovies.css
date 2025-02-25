@@ -84,7 +84,7 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.upcoming-cards {
+.upcoming-cards:hover {
   overflow-x: auto;
 }
 
